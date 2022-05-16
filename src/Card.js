@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; 
 
 export default function Card(props) {
     const {num, question, answer, completed, setCompleted, iconList, setIconList, setWrongAnswer} = props
